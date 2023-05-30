@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        <meta charset="UTF-8">
+        <title> Mi Primer Formulario </title> 
+    </head>
+    <body> 
+        <h2> Formulario de Inscripción a la carrera </h2> <br>
+        <form>
+            <h3> Datos Personales </h3> 
+            <label> Nombre: </label> 
+            <input type="text" name="nombre" placeholder="Ingrese su nombre completo" required> <br><br>
+            <label>  Apellido: </label>
+            <input type="text" name="apellido" placeholder="Ingrese su apellido" requiered> <br><br>
+            <label> Fecha de nacimiento: </label>
+            <input type="date" name='edad'max="2005-12-31" requiered> <br><br>
+            <label> Documento de Identidad: </label><br>
+            <label>  (Ingrese el número sin puntos) </label>
+            <input type="text" name='DNI' maxlength="8" placeholder='Ingrese su numero de identidad'  requiered> <br><br>
+            <label> Género: </label>
+            <select name='genero'>
+                <option value=""> Seleccione su género </option>
+                <optgroup label="CIS Género">
+                    <option value="1"> Femenino </option>
+                    <option value="2"> Masculino </option>
+                </optgroup>            
+                <option value="3"> Tránsgenero </option>
+                <option value="4"> Queer </option>
+                <option value="5"> Fluído </option>
+                <option value="6"> Sin Género </option>
+            </select> <br><br>
+            <label> Domicilio: </label>        
+            <input type="text" name="domicilio" placeholder="Ingrese su domicilio" requiered> <br><br>
+            <label> Lugar de residencia (Ingrese ciudad y provincia): </label>
+            <input type="text" name="residencia" placeholder="Ingrese el nombre" requiered> <br><br>
+            <label> Trabajo: </label>
+            <select name="trabajo" requiered>
+                <option value=""> Seleccione la opción correspondiente </option>
+                <option value="1"> Jornada de tiempo completo </option>
+                <option value="2"> Jornada de tiempo parcial </option>
+                <option value="3"> No trabajo </option>
+            </select> <br><br><br><br>
+            <h3> Formación Profesional-Académica </h3>
+            <label> Nivel Secundario: </label>
+            <select name="secundario" requiered>
+                <option value=""> Seleccione lo que corresponda </option>
+                <option value="1"> Completo </option>
+                <option value="2"> Incompleto </option>
+            </select><br><br>
+            <label> (En caso de ser incompleto, aclare nivel alzanzado) </label>
+            <input type="text" name="secincompleto" placeholder="Nivel alcanzado"><br><br>
+            <label> Nivel Terciario-Universitario: </label>
+            <label>¿Ha realizado algún tipo curso/formación en una institución de este nivel? </label>
+            <select name="UNI" requiered>
+                <option value=""> Seleccione la opción que le corresponda </option>
+                <option value="1"> Si </option>
+                <option value="2"> No </option>
+            </select><br><br>
+            <label> En caso de ser una respuesta afirmativa, por favor especifique: </label><br><br>
+            <textarea name="curso1" placeholder="Comentario"> </textarea><br><br><br><br><br>
+            <h3> Datos de contacto </h3> <br>
+            <label> Celular: </label>
+            <input type="number" name="celular" placeholder="Ingrese su número" requiered> <br><br>
+            <label> Teléfono: </label>
+            <input type="number" name="telefono" placeholder="Ingrese su número"> <br><br>
+            <label> Mail: </label>
+            <input type="email" name="mail" placeholder="email@email.com" requiered> <br><br>
+            <label> Instagram: </label>
+            <input type="text" name="ig" placeholder="@instagram" required> <br><br>
+            <label> Linkedin: </label>
+            <input type="text" name="linkedin" placeholder="linkedin.com/..."> <br><br><br><br><br><br>
+            <button type="submit"> Enviar respuestas </button>
+        </form>
+    </body>
+</html>
