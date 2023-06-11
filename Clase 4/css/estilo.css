@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+header img{
+    float: left;
+    max-width: 90px;
+    max-height: 100px;
+    margin-left: 80px;
+}
+header nav ol li {
+    list-style-type: none;
+    float: left;
+    height: 100px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+header nav ol li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+header nav ol li a:hover{
+    color: black;
+    cursor: pointer;
+    background-color: white;
+}
+main{
+    float: left;
+    width: 50%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+main h2{
+    margin-left: 180px;
+}
+main section p{
+    line-height: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+aside{
+    float: left;
+    width: 40%;
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+aside h2{
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+aside ul li{
+    list-style-type: none;
+    margin-left: 40px;
+    line-height: 30px;
+}
+footer{
+    clear: both;
+    float: left;
+    width: 100%;
+    background-color: rgb(255, 81, 0);
+    color: black;
+}
+footer section{
+    width: 33.33%;
+    float: left;
+}
+footer section h3{
+margin-left: 180px;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+footer section p{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+footer section ul li{
+    list-style-type: none;
+    line-height: 25px;
+    text-align: center;
+}
+
