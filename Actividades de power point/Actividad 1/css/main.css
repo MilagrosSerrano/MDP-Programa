@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(196, 161, 212, 0.658);
+}
+.card{
+    float: left;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 500px;
+    box-shadow: 1px 4px 4px 1px black;
+    transition: 0.3s;
+    width: 500px;
+    height: 620px;
+    background-color: rgb(35, 8, 48);
+    border-radius: 40px;
+}
+.card img{
+   height: 80%;
+   width: 60%;
+   margin-left: 100px;
+   padding-top: 15px;
+}
+.card .content{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+aside{
+    float: left;
+    text-align: center;
+    padding: 50px;
+    margin-left:380px;
+    margin-top: 60px;
+    background-color: rgb(176, 115, 233);
+}
+aside h1{
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+footer{
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-left: 150px;
+}
+footer section{
+    float: left;
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(226, 121, 182);
+}
