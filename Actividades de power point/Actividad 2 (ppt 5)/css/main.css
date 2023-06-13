@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Open Sanz';
+    src: url(./fonts/open-sans/OpenSans-Semibold.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(224, 244, 245);
+    font-family: 'Open Sanz';
+}
+h2{
+    float: left;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 70%;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(48, 152, 248);
+}
+h3{
+    float: left;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 200px;
+    width: 71%;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(48, 152, 248);
+}
+.datospersonales{
+    float: left;
+    padding: 50px;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+label{
+    padding-left: 60px;
+    padding-right: 10px;
+}
+input,select,option{
+    height: 35px;
+    width: 480px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+textarea{
+    height: 80px;
+    width: 350px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 560px;
+    margin-top: -50px;
+}
+.formacion{
+    float: left;
+    padding: 50px;
+    margin-top: 0px;
+    margin-left: 100px;
+}

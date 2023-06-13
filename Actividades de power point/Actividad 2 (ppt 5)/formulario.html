@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulario </title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <h2> FORMULARIO DE INSCRIPCIÓN A LA CARRERA </h2> <br>
+    <form>
+        <h3> DATOS PERSONALES </h3> 
+        <section class="datospersonales">                   
+            <label> Nombre: </label> 
+            <input type="text" name="nombre" placeholder="Ingrese su nombre completo" size="30%"required> <br>
+            <label>  Apellido: </label>
+            <input type="text" name="apellido" placeholder="Ingrese su apellido" size="30%"requiered> <br>
+            <label> Fecha de nacimiento: </label>
+            <input type="date" name='edad'max="2005-12-31" requiered> <br>
+            <label> Documento de Identidad: (Ingrese el número sin puntos)  </label>
+            <input type="text" name='DNI' maxlength="8" size="30%" placeholder='Ingrese su numero de identidad'  requiered> <br>
+            <label> Género: </label>
+            <select name='genero'>
+                <option value=""> Seleccione su género </option>
+                <optgroup label="CIS Género">
+                    <option value="1"> Femenino </option>
+                    <option value="2"> Masculino </option>
+                </optgroup>            
+                <option value="3"> Tránsgenero </option>
+                <option value="4"> Queer </option>
+                <option value="5"> Fluído </option>
+                <option value="6"> Sin Género </option>
+            </select> <br>
+            <label> Domicilio: </label>        
+            <input type="text" name="domicilio" placeholder="Ingrese su domicilio" size="30%"requiered> <br>
+            <label> Lugar de residencia (Ingrese ciudad y provincia): </label>
+            <input type="text" name="residencia" placeholder="Ingrese el nombre" size="30%" requiered> <br>
+            <label> Trabajo: </label>
+            <select name="trabajo" requiered>
+                <option value=""> Seleccione la opción correspondiente </option>
+                <option value="1"> Jornada de tiempo completo </option>
+                <option value="2"> Jornada de tiempo parcial </option>
+                <option value="3"> No trabajo </option>
+            </select> <br>
+        </section>
+        <h3> Formación Profesional-Académica </h3>
+        <section class="formacion">
+            <label> Nivel Secundario: </label>
+            <select name="secundario" requiered>
+                <option value=""> Seleccione lo que corresponda </option>
+                <option value="1"> Completo </option>
+                <option value="2"> Incompleto </option>
+            </select><br>
+            <label> (En caso de ser incompleto, aclare nivel alzanzado) </label>
+            <input type="text" name="secincompleto" placeholder="Nivel alcanzado"><br>
+            <label> Nivel Terciario-Universitario: </label><br>
+            <label >¿Ha realizado algún tipo curso/formación en una institución de este nivel?</label>
+            <select name="UNI" requiered>
+                <option value=""> Seleccione la opción que le corresponda </option>
+                <option value="1"> Si </option>
+                <option value="2"> No </option>
+            </select><br><br><br>
+            <label> En caso de ser una respuesta afirmativa, por favor especifique: </label><br>
+            <textarea name="curso1" placeholder="Comentario"></textarea><br>
+        </section>
+    </form>
+</body>
+</html>
