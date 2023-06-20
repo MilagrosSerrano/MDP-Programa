@@ -28,7 +28,7 @@ h3{
     text-align: center;
     background-color: rgb(48, 152, 248);
 }
-.datospersonales{
+.datospersonales,.formacion,.contacto{
     float: left;
     padding: 50px;
     margin-top: 0px;
@@ -53,10 +53,12 @@ textarea{
     margin-bottom: 20px;
     margin-left: 560px;
     margin-top: -50px;
+    padding:10px;
 }
-.formacion{
+.botones{
+    clear: both;
     float: left;
-    padding: 50px;
-    margin-top: 0px;
-    margin-left: 100px;
+    margin-left: 1200px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
