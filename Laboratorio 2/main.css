@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'light' ;
+    src: url(./css/fonts/geo-sans-light/GeosansLight.ttf);
+}
+@font-face {
+    font-family: 'num';
+    src: url(./css/fonts/valegan/Valegan\ Demo.otf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: light; 
+}
+header{
+    height: 110px ;
+    width: 100%;
+    background-color: rgb(102, 255, 0);
+}
+header nav{
+    float: left;
+    height: 90px;
+    margin-left: 200px;
+}
+header nav li{
+    display: inline-block;
+    padding: 40px;
+    margin-left: 70px;
+    margin-top: 2px;
+}
+header nav ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+header img{
+    float: right;
+    height: 100px;
+    width: 110px;
+    margin-right: 180px;
+    margin-top: 5px;
+}
+header nav ul li a:hover{
+    cursor: pointer;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    box-shadow: contain;
+    border-radius: 6px;
+    padding: 12px;
+    text-align: center;
+}
+aside{
+    padding-top: 10px;
+    width: 30%;
+    clear: both;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 40px;
+}
+aside nav{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    padding-bottom: 10px;
+    margin-left: 2px;
+    margin-top: 10px;
+    background-color: rgb(253, 215, 0);
+}
+aside nav h1{
+    font-size: 46px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    background-color: rgb(255, 30, 0);
+    padding: 5px;
+}
+aside nav ul li {
+    margin-top: 10px;
+    margin-left: 20px;
+    list-style-type: none;
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+aside nav ul li a{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+.opcion{
+    font-size: 30px;
+    padding-left: 15px;
+}
+aside form{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-left: 2px;
+}
+aside form h1{
+    font-size: 35px;
+    color: rgb(255, 123, 0);
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+aside form label{
+    font-size: 20px;
+    margin-left: 40px;
+}
+aside form input{
+    padding: 8px;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    border-color: rgb(0, 132, 255);
+    background-color: none;
+}
+aside form textarea{
+    margin-left: 40px;
+    margin-top: 15px;
+    height: 80px;
+    width: 80%;
+    border-color: rgb(0, 132, 255);
+}
+::placeholder{
+    text-align: center;
+    color: white;
+}
+aside form button{
+    padding: 10px;
+    width: 30%;
+    margin-left: 190px;
+    margin-top: 25px;
+    font-size: 15px;
+    color: white;
+    background-color:  rgb(255, 123, 0) ;
+    border: none;
+    clear: both;
+}
+main{
+    padding-top: 10px;
+    margin: 0px;
+    margin-bottom: 40px;
+}
+main section .card1,main section .card2,main section .card3 {
+    float: left;
+    width: 22%;
+    border: 3px solid red;
+    border-radius: 6px;
+    margin: 5px;
+}
+main section .card1:hover,main section .card2:hover,main section .card3:hover{
+    box-shadow:  1px 2px 1px 2px rgb(143, 24, 24);
+}
+main section .card1 .card-image{
+    background-image: url(./images/maki-sushi-1.jpg) ;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main section .card1 .card-image .precio,main section .card2 .card-image .precio,main section .card3 .card-image .precio{
+    font-family: 'num' ;
+    background-color: rgb(102, 255, 0);
+    border-radius: 3px 3px 5px 0px;
+    width: fit-content;
+    padding: 5px;
+    font-size: 35px;
+}
+main section .card1 h1,main section .card2 h1,main section .card3 h1{
+    text-align: center;
+    margin-top: 10px;
+}
+main section .card1 .description,main section .card2 .description,main section .card3 .description{
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+}
+main section .card1 button,main section .card2 button,main section .card3 button{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    background-color: yellow;
+    border: none;
+}
+main section .card1 button:hover,main section .card2 button:hover,main section .card3 button:hover{
+    cursor: pointer;
+}
+main section .card2 .card-image{
+    background-image: url(./images/futomaki.webp) ;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main section .card3 .card-image{
+    background-image: url(./images/Hosomaki.avif) ;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer{
+    clear: both;
+    width: 100%;
+    background-color: rgb(102, 255, 0);
+    font-size: 25px;
+    height: 70px;
+    margin: 0px;
+    padding: 20px;
+}
+footer a{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+footer span{
+    float: right;
+}
