@@ -198,7 +198,7 @@ main section .card2 .card-image{
     background-repeat: no-repeat;
 }
 main section .card3 .card-image{
-    background-image: url(./images/Hosomaki.avif) ;
+    background-image: url(./images/Hosomaki.jpg) ;
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
