@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 13vh;
+    background-color: greenyellow;
+    display: flex;
+}
+header .logo{
+    display: flex;
+    padding: 7px;
+    width: 10%;
+    background-color: none;
+    align-self: center;
+    justify-content: center;
+    background-color: beige;
+}
+header .logo img{
+    display: flex;
+    max-width: 100px;
+    max-height: 90px;
+}
+header nav{
+    display: flex;
+    width: 90%;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: beige;
+}
+header nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+header nav ul li a{
+    color: black;
+    font-size: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid black;
+} 
