@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'quicksand';
+    src: url(./fonts/Quicksand/Quicksand-Medium.ttf);
+}
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'quicksand';
 }
 header{
     height: 13vh;
@@ -9,22 +14,21 @@ header{
 }
 header .logo{
     display: flex;
-    padding: 7px;
+    padding: 10px;
     width: 10%;
-    background-color: none;
     align-self: center;
     justify-content: center;
     background-color: beige;
 }
 header .logo img{
     display: flex;
-    max-width: 100px;
-    max-height: 90px;
+    max-width: 100%;
+    max-height: 99px;
 }
 header nav{
     display: flex;
     width: 90%;
-    padding: 10px;
+    padding: 8px;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -45,3 +49,59 @@ header nav ul li a:hover{
     cursor: pointer;
     border-bottom: 2px solid black;
 } 
+main{
+    display: flex;
+    background-color: rgb(245, 186, 168);
+}
+main .card1{
+    width: 25%;
+    background-color: white;
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+main .card1 .card-image img{
+    max-width: 100%;
+    border-radius: 20px 20px 0px 0px;
+} 
+main .card1 .nombre{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+main .card1 .description{
+    padding: 5px;
+    font-size: 15x;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main .card1 .precio{
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(223, 251, 255);
+    border-radius: 0px 0px 20px 20px  ;
+    border-left: 5px solid rgb(5, 112, 235);
+}
+main .card1 .cart{
+    display: none;
+}
+main .card1 .cart button{
+    height: 50px;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(245, 36, 36);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+}
+main .card1 .cart button:hover{
+    cursor: pointer;
+}
+main .card1 .precio:hover .cart{
+    display: inline-block;
+}
