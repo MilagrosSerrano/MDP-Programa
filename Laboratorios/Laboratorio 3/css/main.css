@@ -8,13 +8,13 @@
     font-family: 'quicksand';
 }
 header{
-    height: 13vh;
+    height: 14vh;
     background-color: greenyellow;
     display: flex;
 }
 header .logo{
     display: flex;
-    padding: 10px;
+    padding: 9px;
     width: 10%;
     align-self: center;
     justify-content: center;
@@ -23,7 +23,7 @@ header .logo{
 header .logo img{
     display: flex;
     max-width: 100%;
-    max-height: 99px;
+    max-height: 11.7vh;
 }
 header nav{
     display: flex;
@@ -51,25 +51,28 @@ header nav ul li a:hover{
 } 
 main{
     display: flex;
+    flex-wrap: wrap;
     background-color: rgb(245, 186, 168);
 }
-main .card1{
-    width: 25%;
+main .card1,main .card2,main .card3,main .card4,main .card5,main .card6,main .card7,main .card8{
+    width: 23%;
     background-color: white;
     margin: 10px;
     margin-top: 30px;
+    margin-bottom: 30px;
     border-radius: 20px;
+    margin-left: 20px;
 }
-main .card1 .card-image img{
+main .card1 .card-image img,main .card2 .card-image img,main .card3 .card-image img,main .card4 .card-image img,main .card5 .card-image img,main .card6 .card-image img,main .card7 .card-image img,main .card8 .card-image img{
     max-width: 100%;
     border-radius: 20px 20px 0px 0px;
 } 
-main .card1 .nombre{
+main .card1 .nombre,main .card2 .nombre,main .card3 .nombre,main .card4 .nombre,main .card5 .nombre,main .card6 .nombre,main .card7 .nombre,main .card8 .nombre{
     font-size: 30px;
     text-align: center;
     margin-top: 15px;
 }
-main .card1 .description{
+main .card1 .description,main .card2 .description,main .card3 .description,main .card4 .description,main .card5 .description,main .card6 .description,main .card7 .description,main .card8 .description{
     padding: 5px;
     font-size: 15x;
     text-align: center;
@@ -77,7 +80,7 @@ main .card1 .description{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-main .card1 .precio{
+main .card1 .precio,main .card2 .precio,main .card3 .precio,main .card4 .precio,main .card5 .precio,main .card6 .precio,main .card7 .precio,main .card8 .precio{
     font-size: 30px;
     text-align: center;
     padding: 15px;
@@ -85,10 +88,10 @@ main .card1 .precio{
     border-radius: 0px 0px 20px 20px  ;
     border-left: 5px solid rgb(5, 112, 235);
 }
-main .card1 .cart{
+main .card1 .cart,main .card2 .cart,main .card3 .cart,main .card4 .cart,main .card5 .cart,main .card6 .cart,main .card7 .cart,main .card8 .cart{
     display: none;
 }
-main .card1 .cart button{
+main .card1 .cart button,main .card2 .cart button,main .card3 .cart button,main .card4 .cart button,main .card5 .cart button,main .card6 .cart button,main .card7 .cart button,main .card8 .cart button{
     height: 50px;
     font-size: 25px;
     padding: 5px;
@@ -99,9 +102,51 @@ main .card1 .cart button{
     border: none;
     margin-left: 10px;
 }
-main .card1 .cart button:hover{
+main .card1 .cart button:hover,main .card2 .cart button:hover,main .card3 .cart button:hover,main .card4 .cart button:hover,main .card5 .cart button:hover,main .card6 .cart button:hover,main .card7 .cart button:hover,main .card8 .cart button:hover{
     cursor: pointer;
 }
-main .card1 .precio:hover .cart{
+main .card1 .precio:hover .cart,main .card2 .precio:hover .cart,main .card3 .precio:hover .cart,main .card4 .precio:hover .cart,main .card5 .precio:hover .cart,main .card6 .precio:hover .cart,main .card7 .precio:hover .cart,main .card8 .precio:hover .cart{
     display: inline-block;
+}
+footer{
+    background-color:beige;
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap ;
+    justify-content: space-between;
+}
+footer .redes{
+   width: 50%;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-items: center;
+   padding-left: 10px;
+}
+footer .redes .tw i{
+    color: rgb(0, 140, 255);
+}
+footer .redes .ig i{
+    color: rgb(195, 0, 255);
+}
+footer .redes .fb i{
+    color: rgb(0, 81, 255);
+}
+footer .redes i{
+    font-size: 25px;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 5px;
+}
+footer .redes i:hover{
+    cursor: pointer;
+}
+footer .redes .tw p{
+   margin-left: 13px;
+}
+footer span{
+    font-size: 20px;
+    width: 100%;
+    display: block;
+    margin-top: 15px;
 }
