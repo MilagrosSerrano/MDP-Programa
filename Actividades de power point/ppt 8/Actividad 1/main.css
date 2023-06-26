@@ -11,13 +11,13 @@ body .contenedor .uno,body .contenedor .dos,body .contenedor .cuatro,body .conte
     background-color: lightblue;
     border: 2px solid black;
 }
-body .contenedor .uno,body .contenedor .dos{
+body .contenedor .uno,body .contenedor .dos,body .contenedor .tres{
     border-bottom: none;
 }
-body .contenedor .cuatro,body .contenedor .cinco{
+body .contenedor .cuatro,body .contenedor .cinco,body .contenedor .seis{
     border-top: none;
 }
-body .contenedor .uno,body .contenedor .cuatro{
+body .contenedor .uno,body .contenedor .cuatro,body .contenedor .dos,body .contenedor .cinco{
     border-right: none;
 }
 body .contenedor .dos,body .contenedor .cinco,body .contenedor .tres,body .contenedor .seis{
