@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 30px;
+}
+.box1,.box2,.box3{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    padding: 20px;
+    position: absolute;
+    float: left;
+}
+.box1{
+    background-color: blue;
+    z-index: 2; 
+    left: 50px;
+}
+.box2{
+    background-color: red;
+    z-index: 1; 
+    left: 130px;
+}
+.box3{
+    background-color: green;
+    z-index: -1; 
+    left: 210px;
+}
