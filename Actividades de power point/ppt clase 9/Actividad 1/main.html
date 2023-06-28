@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1 / PPT-9</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <form>
+        <header>
+            <h1> Formulario de consulta bancaria </h1>
+        </header>
+        <div class="inputs">
+            <div class="op1">
+                <label> Seleccione el tipo de cuenta: </label> <br>
+                <input type="radio" id="cuenta" name="cuenta" value="cc" required> Cuenta Corriente <br>
+                <input type="radio" id="cuenta" name="cuenta" value="ca" required> Caja de Ahorro
+            </div>
+            <div class="input2">
+                <label> Seleccione el tipo de moneda de su cuenta: </label><br>
+                <input type="radio" id="moneda" name="moneda" value="pesos" required> Pesos  <br>
+                <input type="radio" id="moneda" name="moneda" value="dolares" required> Dolares
+            </div>
+            <div class="input3">
+                <label> Ingrese brevemente su consulta: </label><br>
+                <textarea placeholder="Comentario" required> </textarea> 
+            </div>
+            <div class="input4">
+                <label> Mail: </label>
+                <input type="text" placeholder="Email" required>
+            </div>
+            <div class="input5">
+                <label> Teléfono: </label>
+                <input type="tel" placeholder="Teléfono" required>
+            </div>
+            <div class="boton"> 
+                <button type="submit"> Enviar</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

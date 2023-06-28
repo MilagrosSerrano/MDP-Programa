@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'regular' ;
+    src: url(./css/Quicksand-Regular.ttf);
+}
+*{
+    margin: 0px;
+    padding: 10px;
+    font-family: 'regular';
+}
+header{
+    height: 90px;
+    background-color: rgb(0, 102, 255);
+}
+h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.inputs{
+    margin-top: 20px;
+    padding: 5px;
+    border: 2px solid #cecece;
+    border-radius: 10px;
+    height: 100%;
+}
+.inputs input, .inputs textarea{
+    margin-left: 10px;
+    border-radius: 6px;
+    border: 2px solid #b3aeae;
+    margin-top: 10px;
+}
+.inputs .input4 input{
+    width: 300px;
+}
+.inputs .input5 input{
+    width: 200px;
+}
+.inputs textarea{
+    width: 400px;
+    height: 200px;
+}
+.boton button{
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 1px solid;
+}
+.boton button:hover{
+    background-color: #cecece;
+    cursor: pointer;
+    height: 40px;
+    width: 70px;
+}
