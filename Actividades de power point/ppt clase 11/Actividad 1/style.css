@@ -1,0 +1,9 @@
+.navbar-brand{
+    margin-left: 20px;
+}
+.d-flex{
+    margin-right: 20px;
+}
+.carousel-item p,.carousel-item h5{
+    color: black;
+}
