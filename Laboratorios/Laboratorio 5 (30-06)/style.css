@@ -1,0 +1,65 @@
+
+.container-fluid .navbar-brand{
+    padding: 10px;
+}
+form button{
+    margin-right: 60px;
+}
+button{
+    margin-right: 20px;
+}
+.navbar{
+    background-color: rgb(255, 230, 0)!important;
+}
+.navbar .collapse ul{
+    background-color: rgb(255, 230, 0)!important;
+}
+.navbar .collapse ul .dropdown-menu li a:hover{
+    background-color: black!important;
+    color: white;
+    border-radius: 4px;
+}
+form input{
+    border: solid 1px rgb(0, 102, 255) !important;
+}
+.carousel-inner{
+    max-height: 100vh;
+}
+main{
+    padding: 10px;
+}
+img{
+    position: relative;
+}
+.boton{
+    position: absolute;
+    top: 53%;
+    left: 56%;
+    transition: 1ms ease; 
+    visibility: hidden;
+    color: white !important;
+}
+.card1:hover .boton{
+    visibility: visible;
+}
+.modal-body{
+    display: flex;
+}
+.modal-body .side{
+    max-width: max-content;
+}
+.modal_image img{
+    max-width: 250px;
+    padding: 10px;
+}
+.modal-body p{
+    padding: 10px;
+}
+.botones{
+    display: inline-block;
+    max-width: max-content;
+    padding: 10px;
+}
+.botones button{
+    margin-bottom: 5px;
+}
