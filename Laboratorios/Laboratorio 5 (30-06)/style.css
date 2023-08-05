@@ -31,7 +31,7 @@ main{
 img{
     position: relative;
 }
-.boton{
+.boton1{
     position: absolute;
     top: 53%;
     left: 56%;
@@ -39,7 +39,15 @@ img{
     visibility: hidden;
     color: white !important;
 }
-.card1:hover .boton{
+.boton2{
+    position: absolute;
+    top: 53%;
+    left: 72%;
+    transition: 1ms ease; 
+    visibility: hidden;
+    color: white !important;
+}
+.card1:hover .boton1,.card2:hover .boton2{
     visibility: visible;
 }
 .modal-body{
